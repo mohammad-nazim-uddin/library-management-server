@@ -27,23 +27,25 @@ A fully functional Library Management System built with **Node.js**, **Express**
 ---
 
 ## 📁 Folder Structure
+```
 library-management-system/
 ├── src/
-│ ├── config/
-│ │ └── mongoDb.ts
-│ ├── controllers/
-│ │ ├── book.controller.ts
-│ │ └── borrow.controller.ts
 │ ├── models/
 │ │ ├── book.model.ts
 │ │ └── borrow.model.ts
+│ ├── controllers/
+│ │ ├── book.controller.ts
+│ │ └── borrow.controller.ts
 │ ├── routes/
 │ │ ├── book.route.ts
 │ │ └── borrow.route.ts
+│ ├── config/
+│ │ └── mongoDb.ts
 │ ├── app.ts
 │ └── server.ts
 ├── package.json
 ├── tsconfig.json
 └── README.md
+```
 
 
